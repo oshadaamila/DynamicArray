@@ -1,13 +1,12 @@
-#include <iostream>
 #include "dynamicarray.h"
-  
-using namespace std; 
-  
-int main() 
-{ 
-    DynamicArray *d_array = new DynamicArray();
-    int val = d_array->getOne();
-    cout<<"getOne method returns "<<val<<endl; 
-  
-    return 0; 
+#include <iostream>
+
+using namespace std;
+
+
+
+int main(int argc, char ** argv) {
+	
+	DynamicArray<string> *arr = new DynamicArray<string>();
+	return 0;
 }
